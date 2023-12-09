@@ -298,9 +298,6 @@ export default function Home() {
                 
     
                 <div className='flex justify-end flex-wrap max-[633px]:flex-col'>
-                    <Link href={'/mytrips'} className='max-[633px]:flex max-[633px]:justify-end'>
-                      <Button className='mr-[33px] font-bold border-[3px] border-solid border-[#2D2F3D] w-[208px] max-[633px]:w-[140px] max-[633px]:mr-[0px] max-[633px]:mb-[20px]' label='Cancel'></Button>
-                    </Link>
                     <div className='max-[633px]:flex max-[633px]:justify-end'>
                     <Button className='border-solid border-black border-[1px] bg-[#2D2F3D] text-white font-bold w-[208px] max-[633px]:w-[140px] max-[633px]:right-[0]' label='Booking Now' onClick={handleOrder}></Button>   
                     </div>

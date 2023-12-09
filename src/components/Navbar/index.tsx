@@ -76,7 +76,7 @@ const Navbar = () => {
           </button>
           {/* Dropdown menu */}
           <div
-            className={`absolute mt-[15%] ${
+            className={`absolute top-[100%] right-[0px] mt-[15%] ${
               isDropdownOpen ? 'block' : 'hidden'
             } z-50 my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600`}
             id="user-dropdown"
