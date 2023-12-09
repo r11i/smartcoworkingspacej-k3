@@ -64,7 +64,7 @@ const Navbar = () => {
           <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">CoSpace J</span>
       </Link>
-      <div className="flex items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+      <div className="relative flex items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <button
             type="button"
             className="flex text-sm bg-gray-800 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
